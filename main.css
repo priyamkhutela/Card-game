@@ -1,0 +1,107 @@
+ * {
+  background-color: black;
+}
+.game {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.btn {
+  margin: 50px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: gray 10px 10px 10px;
+  transition: 0.8s;
+  text-align: center;
+}
+.btn:hover {
+  background: orange;
+  transform: translate(-10px, -10px);
+  box-shadow: gray 20px 20px 20px;
+  transition: 0.5s;
+}
+
+.btn:active {
+  transform: translate(5px, 5px);
+  box-shadow: gray 5px 5px 5px;
+  transition: 0.2s;
+}
+
+.game .game-options {
+  text-align: center;
+}
+.game .card {
+  width: 50px;
+  height: 80px;
+  padding: 30px;
+  border: solid 1px #808080;
+  background-color: red;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 20pt;
+  text-align: center;
+  margin: 3px;
+  border: solid 3px;
+}
+.game .status {
+  
+  display: inline-block;
+  background: gold;
+  border: solid 5px white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+   display: none; 
+}
+
+.players {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.player {
+  width: 80%;
+  border: solid 5px #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  margin: 1%;
+  vertical-align: top;
+  background: #f5f5f5;
+  
+  color: white;
+  font-size: 22px;
+}
+.player.active {
+  border: solid 15px red;
+}
+.points {
+  text-align: center;
+  font-size: 20pt;
+  font-weight: bold;
+  color: white;
+}
+
+.deck {
+  float: left;
+  background: white;
+  color:white;
+  padding: 10px;
+  border-radius: 10px;
+  border: double 5px;
+  font-size: 50px;
+  font-weight: bold;
+}  
+
